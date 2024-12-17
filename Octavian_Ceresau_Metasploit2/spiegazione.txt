@@ -1,0 +1,8 @@
+0) Net discoover -  - fping -a -g 192.168.1.0/24 
+1) Nmap scan  scansiono i servizi attivi sull'ip della macchina - nmap -sV -T5 192.168.1.40
+2) Avvio framework - msfconsole
+3) Seleziona modulo: scegliemo questo modulo perchè vogliamo attaccare la porta 23 "telnet" - search type:auxiliary telnet  
+4) Utilizzo - use auxiliary/scanner/telnet/telnet_version
+5) Configurazione - options / set threads 4 / set rhosts 192.168.1.40
+6) Avvio - exploit
+
